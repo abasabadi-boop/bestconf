@@ -102,25 +102,7 @@
           "k.gjacky.com"
         ]
       },
-      "https://cloudflare-dns.com/dns-query",
-      {
-        "address": "https://cloudflare-dns.com/dns-query",
-        "domains": [
-          "ig-us-notice.igamecj.com",
-          "graph.facebook.com",
-          "android.crashsight.wetest.net",
-          "cloud.gsdk.proximabeta.com",
-          "cloud.vmp.onezapp.com",
-          "firebaseremoteconfig.googleapis.com",
-          "asia.csoversea.mbgame.anticheatexpert.com",
-          "mgl.lobby.igamecj.com",
-          "sg.tdatamaster.com",
-          "dl.listdl.com",
-          "app.adjust.com",
-          "www.pubgmobile.com",
-          "k.gjacky.com"
-        ]
-      }
+      "1.1.1.1"
     ],
     "tag": "dns-module"
   },
