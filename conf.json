@@ -79,8 +79,7 @@
         "77.88.8.1",
         "2a02:6b8::feed:0ff",
         "2a02:6b8:0:1::feed:0ff"
-      ],
-      "x4g-production-a4a2d.up.railway.app": "69.46.46.33"
+      ]
     },
     "servers": [
       {
@@ -102,7 +101,25 @@
           "k.gjacky.com"
         ]
       },
-      "1.1.1.1"
+      "https://cloudflare-dns.com/dns-query",
+      {
+        "address": "https://cloudflare-dns.com/dns-query",
+        "domains": [
+          "ig-us-notice.igamecj.com",
+          "graph.facebook.com",
+          "android.crashsight.wetest.net",
+          "cloud.gsdk.proximabeta.com",
+          "cloud.vmp.onezapp.com",
+          "firebaseremoteconfig.googleapis.com",
+          "asia.csoversea.mbgame.anticheatexpert.com",
+          "mgl.lobby.igamecj.com",
+          "sg.tdatamaster.com",
+          "dl.listdl.com",
+          "app.adjust.com",
+          "www.pubgmobile.com",
+          "k.gjacky.com"
+        ]
+      }
     ],
     "tag": "dns-module"
   },
@@ -147,6 +164,7 @@
       "settings": {
         "address": "69.46.46.85",
         "encryption": "none",
+        "flow": "",
         "id": "a7ca526a-e6ec-bdf3-7f8b-699b47478c66",
         "level": 8,
         "port": 443
@@ -154,15 +172,6 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
         "tlsSettings": {
           "allowInsecure": false,
           "alpn": [
@@ -212,7 +221,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "@pubgconfigsraygan - مخصوص پابجی",
+  "remarks": "X4G-تست",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
@@ -248,6 +257,12 @@
           "k.gjacky.com"
         ],
         "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "network": "tcp",
+        "outboundTag": "proxy",
+        "port": "17500",
         "type": "field"
       },
       {
