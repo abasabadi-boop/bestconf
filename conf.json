@@ -163,7 +163,7 @@
       },
       "protocol": "vless",
       "settings": {
-        "address": "x4g-production-a4a2d.up.railway.app",
+        "address": "69.46.46.85",
         "encryption": "none",
         "id": "a7ca526a-e6ec-bdf3-7f8b-699b47478c66",
         "level": 8,
